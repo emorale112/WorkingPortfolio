@@ -1,26 +1,73 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
+![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
+===========
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
+[![Travis CI](https://travis-ci.org/Dogfalo/materialize.svg?branch=master)](https://travis-ci.org/Dogfalo/materialize) [![devDependency Status](https://david-dm.org/Dogfalo/materialize/dev-status.svg)](https://david-dm.org/Dogfalo/materialize#info=devDependencies) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Dogfalo/materialize?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-## Getting Started
+[Materialize](http://materializecss.com/), a CSS Framework based on material design
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+### Current Version : v0.98.1
 
-## Bugs and Issues
+## Sass Requirements:
+- Ruby Sass 3.3+, LibSass 0.6+
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
+## Supported Browsers:
+Chrome 35+, Firefox 31+, Safari 7+, IE 10+
 
-## Creator
+## Changelog
+Bolded styling surrounded by emojis indicates a breaking change.
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+- v0.98.2 (April 14th)
+  - Fixed collapsible preselect bug
+  - Fixed dropdown event bubbling bug
+  - Fixed range position inaccuracies
+  - Fixed feature discovery mobile styles
+  - Fixed carousel reinitialize bugs
+  - Fixed grid offset bug
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+- v0.98.1 (March 21st)
+  - Fixed various select bugs on mobile devices
+  - Fixed small sideNav overlay bugs
+  - Fixed carousel resizing bug
+  - Fixed materialbox callback bug
+  - Range slider supports keyboard navigation
+  - Added XL breakpoint
+  - Added Pulse CSS effect
+  - Added Feature Discovery component
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+- v0.98.0 (January 25th)
+  - :no_good: **Standardized plugin option naming to camelcase (please check your plugin calls to make sure all the options are camelcase)** :no_good:
+  - Added FABs in image cards
+  - Added swipeable tabs
+  - Fixed carousel misalignment when switching quickly
+  - Fixed carousel resize bug where slide widths wouldn't change when changing window size
+  - Improved tabs compatibility with cards
+  - Fixed bug where using backspace to delete chips would navigate back in certain browsers
+  - Added autocomplete integration with chips
+  - Upgraded noUiSlider to version 9 with support for vertical sliders
 
-## Copyright and License
+- v0.97.8 (October 30th, 2016)
+  - **Refactored Modal plugin**
+  - Tabs now supported in navbar
+  - Chips data can now be reinitiailized
+  - Minor side nav fixes
+  - FAB to toolbar component added
+  - Fixed dropdown options bug
+- v0.97.7 (July 23rd, 2016)
+  - Basic horizontal cards
+  - Carousel bug fixes and new features
+  - Updated sidenav styles and new component
+  - Meteor package now supports Sass
+  - Autocomplete form component
+  - Chips jQuery plugin
 
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/gh-pages/LICENSE) license.
+
+
+
+## Testing
+We use Jasmine as our testing framework and we're trying to write a robust test suite for our components. If you want to help, [here's a starting guide on how to write tests in Jasmine](https://docs.google.com/document/d/1dVM6qGt_b_y9RRhr9X7oZfFydaJIEqB9CT7yekv-4XE/edit?usp=sharing)
+
+## Contributing
+[Please read CONTRIBUTING.md for more information](CONTRIBUTING.md)
+
+## Translation
+If you want to help us translate the documentation into other languages, please send us an email at materializeframework@gmail.com telling us which language team you want to join. We use [Transifex](https://www.transifex.com) as our localization platform and we will send you an invite there.
